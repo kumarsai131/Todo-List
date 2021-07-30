@@ -1,2 +1,2 @@
 # Todo List
- Todo List made by using HTML,CSS and JS
+######Made by using HTML,CSS and JAVASCRIPT
