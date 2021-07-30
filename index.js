@@ -22,6 +22,9 @@ function addTodo(todo){
     if(text){
         const todoele = document.createElement("li")
         
+        if(todo && todo.completed)
+        todoele.classList.add('completed')
+        
         todoele.innerText = text
         const delbtn = document.createElement("i");         //font awesome icon
         delbtn.classList.add("fas","fa-check");             // check mark icon
